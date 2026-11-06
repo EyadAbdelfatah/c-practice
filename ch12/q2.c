@@ -6,7 +6,7 @@
 int main(void) {
     char message[MAX_LEN];
     char *p = message;
-    char c;
+    int c;
 
     printf("Enter a message: ");
     
@@ -32,3 +32,6 @@ int main(void) {
     printf("Palindrome\n");
     return 0;
 }
+
+
+
